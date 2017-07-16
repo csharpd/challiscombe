@@ -25,7 +25,6 @@
 	width:50%;
 	float:right;
 	background: pink;
-	display: flex;
 }
 
 #col3-a {
@@ -34,4 +33,49 @@
 
 #col3-b {
 	background: yellow;
+}
+
+#footer {
+	float: left;
+    clear: both;
+    display:none;
+    background: chartreuse;
+    width:100%;
+}
+
+@media screen and (max-width: 780px) {
+	#col1{
+		width:25%;
+	}
+
+	#col23wrapper{
+		width:75%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	#col1{
+		display: none;
+	}
+
+	#col2 {
+		width:100%;
+	}
+
+	#col3 {
+		width:100%;
+		display: flex;
+		flex-direction:column;
+		flex-direction: column-reverse;
+	}
+
+	#col23wrapper{
+		width: 100%
+	}
+
+	#footer {
+		display: block;
+	}
+	
 }

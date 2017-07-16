@@ -1,0 +1,37 @@
+#container{
+	background: red;
+
+}
+
+#col1{
+	width:30%;
+	float:left;
+	background: gold;
+}
+
+#col23wrapper{
+	width:70%;
+	float:left;
+	background: deepskyblue;
+}
+
+#col2 {
+	width:50%;
+	float:left;
+	background: purple;
+}
+
+#col3 {
+	width:50%;
+	float:right;
+	background: pink;
+	display: flex;
+}
+
+#col3-a {
+	background: green;
+}
+
+#col3-b {
+	background: yellow;
+}

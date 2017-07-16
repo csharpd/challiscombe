@@ -1,0 +1,55 @@
+h1{
+	color: green;
+}
+
+.container {
+	background: black;
+	color:white;
+	display: flex;
+}
+
+.main {
+	background: gold;
+	flex-basis: 70%;
+	display:flex;
+}
+
+.section-column {
+	width:50%
+}
+
+#one{
+	background-color: tomato;
+}
+
+#two {
+	background-color: deepskyblue;
+	display: flex;
+	flex-direction:column;
+}
+
+aside {
+	background: aquamarine;
+	flex-basis: 30%
+}
+
+@media screen and (max-width: 768px) {
+
+	.container{
+		flex-direction:column;
+	}
+
+	.main {
+		flex-basis:100%;
+		flex-direction:column;
+	}
+
+	.section-column {
+		width:100%
+	}
+
+	#two {
+		flex-direction: column-reverse;
+	}
+
+}
